@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a id="logo">Neo.</a>
+        <a>Buy</a>
+        <a>Sell</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">SignUp</a>
+    </header>
+    <content>
+        <div id="in1">Login</div>
+        <div id="in2">
+            <form action="/login" method="POST"> <!-- Modified form element -->
+                <br><br><br><br>
+                <p id="n">Username</p>
+                <input type="text" name="username" id="user"><br><br> <!-- Added name attribute -->
+                <p id="n">Password</p>
+                <input type="password" name="password" id="user"><br> <!-- Added name attribute -->
+                <a id="forget">Forgot password?</a><br><br>
+                <input type="checkbox" name="Login" id="lo">
+                <a>Keep me signed in</a><br><br><br>
+                <input type="submit" value="Login" id="submit"><br><br><br>
+                <a id="no_account">I don't have an account!</a>
+                <a href="signup.html">SignUp</a>
+            </form> <!-- Added closing form tag -->
+        </div>
+    </content>
+    <footer>
+        &#169;Neo 2024 All Rights Reserved
+    </footer>
+</body>
+</html>
